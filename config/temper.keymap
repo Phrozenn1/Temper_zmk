@@ -128,10 +128,10 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-  &kp Q             &kp W         &kp F            &kp P              &kp B     &kp J                 &kp L               &kp U        &kp Y                 &kp SEMI
-  &hml LEFT_META A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_SHIFT T  &kp G     &kp M                 &hmr RIGHT_SHIFT N  &hmr RALT E  &hmr RIGHT_CONTROL I  &hmr RIGHT_META O
-  &kp Z             &kp X         &kp C            &kp D              &kp V     &kp K                 &kp H               &kp COMMA    &kp DOT               &kp FSLH
-                                  &none            &hm ENTER SPACE    &tog 1    &hm DELETE BACKSPACE  &kp TAB             &none
+  &kp Q  &kp W         &kp F            &kp P              &kp B            &kp J                 &kp L               &kp U           &kp Y                 &kp SEMI
+  &kp A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_SHIFT T  &kp G            &kp M                 &hmr RIGHT_SHIFT N  &hmr RALT E     &hmr RIGHT_CONTROL I  &kp O
+  &kp Z  &kp X         &kp C            &kp D              &kp V            &kp K                 &kp H               &kp COMMA       &kp DOT               &kp FSLH
+                       &mo_tog 2 1      &hm ENTER SPACE    &kp LEFT_META    &hm DELETE BACKSPACE  &kp TAB             &kp APOSTROPHE
             >;
         };
 
@@ -139,10 +139,10 @@
             display-name = "NAV_NUM";
             label = "NAV_NUM";
             bindings = <
-  &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0
-  &kp TILDE      &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-  &kp CARET      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-                                  &none         &none      &kp LEFT_SHIFT          &none                  &none         &none
+  &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+  &kp SLASH      &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+  &kp APOS       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+                                  &trans        &trans     &trans                  &kp LEFT_SHIFT         &trans        &trans
             >;
         };
 
