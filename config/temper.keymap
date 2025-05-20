@@ -90,29 +90,6 @@
     combos {
         compatible = "zmk,combos";
 
-        a {
-            bindings = <&kp ENTER>;
-            key-positions = <19 18>;
-            timeout-ms = <30>;
-        };
-
-        b {
-            bindings = <&kp TAB>;
-            key-positions = <20 21>;
-            timeout-ms = <30>;
-        };
-
-        c {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
-            timeout-ms = <30>;
-        };
-
-        d {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
-        };
-
         e {
             bindings = <&kp MINUS>;
             key-positions = <16 17>;
@@ -121,6 +98,16 @@
         f {
             bindings = <&kp EQUAL>;
             key-positions = <17 18>;
+        };
+
+        CTRL {
+            bindings = <&sk LEFT_CONTROL>;
+            key-positions = <13 16>;
+        };
+
+        sticky_alt {
+            bindings = <&sk LEFT_ALT>;
+            key-positions = <12 17>;
         };
     };
 
@@ -131,10 +118,10 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-  &kp Q  &kp W         &kp F            &kp P              &kp B            &kp J                 &kp L               &kp U           &kp Y                 &kp SEMI
-  &kp A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_SHIFT T  &kp G            &kp M                 &hmr RIGHT_SHIFT N  &hmr RALT E     &hmr RIGHT_CONTROL I  &kp O
-  &kp Z  &kp X         &kp C            &kp D              &kp V            &kp K                 &kp H               &kp COMMA       &kp DOT               &kp FSLH
-                       &mo_tog 2 1      &hm ENTER SPACE    &kp LEFT_META    &hm DELETE BACKSPACE  &kp TAB             &kp APOSTROPHE
+  &kp Q  &kp W  &kp F        &kp P            &kp B            &kp J                 &kp L               &kp U           &kp Y    &kp SEMI
+  &kp A  &kp R  &kp S        &kp T            &kp G            &kp M                 &kp N               &kp E           &kp I    &kp O
+  &kp Z  &kp X  &kp C        &kp D            &kp V            &kp K                 &kp H               &kp COMMA       &kp DOT  &kp FSLH
+                &mo_tog 2 1  &hm ENTER SPACE  &kp LEFT_META    &hm DELETE BACKSPACE  &mt LEFT_SHIFT TAB  &kp APOSTROPHE
             >;
         };
 
