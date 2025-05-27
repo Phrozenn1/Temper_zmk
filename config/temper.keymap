@@ -115,22 +115,22 @@
             display-name = "Num";
             label = "Num";
             bindings = <
-  &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-  &kp SLASH      &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-  &kp APOS       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-                                  &trans        &trans     &trans                  &kp LEFT_SHIFT         &trans        &trans
+  &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE      &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+  &kp SLASH      &kp DOLLAR       &kp PERCENT   &kp CARET      &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+  &kp APOS       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+                                  &trans        &kp LEFT_META  &trans                  &kp LEFT_SHIFT         &trans        &trans
             >;
         };
 
         nav {
-            label = "Nav";
-            display-name = "Nav";
             bindings = <
-  &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-  &kp SLASH      &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-  &kp APOS       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-                                  &trans        &trans     &trans                  &kp LEFT_SHIFT         &trans        &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Nav";
         };
 
         sys {
