@@ -90,24 +90,10 @@
     combos {
         compatible = "zmk,combos";
 
-        e {
-            bindings = <&kp MINUS>;
-            key-positions = <16 17>;
-        };
-
-        f {
-            bindings = <&kp EQUAL>;
-            key-positions = <17 18>;
-        };
-
-        CTRL {
-            bindings = <&sk LEFT_CONTROL>;
-            key-positions = <13 16>;
-        };
-
-        sticky_alt {
-            bindings = <&sk LEFT_ALT>;
-            key-positions = <12 17>;
+        sys_layer {
+            bindings = <&sl 3>;
+            key-positions = <32 33>;
+            layers = <3>;
         };
     };
 
@@ -118,16 +104,16 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-  &kp Q  &kp W  &kp F        &kp P            &kp B            &kp J                 &kp L               &kp U           &kp Y    &kp SEMI
-  &kp A  &kp R  &kp S        &kp T            &kp G            &kp M                 &kp N               &kp E           &kp I    &kp O
-  &kp Z  &kp X  &kp C        &kp D            &kp V            &kp K                 &kp H               &kp COMMA       &kp DOT  &kp FSLH
-                &mo_tog 2 1  &hm ENTER SPACE  &kp LEFT_META    &hm DELETE BACKSPACE  &mt LEFT_SHIFT TAB  &kp APOSTROPHE
+  &kp Q  &kp W         &kp F            &kp P                &kp B      &kp J      &kp L                 &kp U        &kp Y                 &kp SEMI
+  &kp A  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_SHIFT T    &kp G      &kp M      &hmr RIGHT_SHIFT N    &hmr RALT E  &hmr RIGHT_CONTROL I  &kp O
+  &kp Z  &kp X         &kp C            &kp D                &kp V      &kp K      &kp H                 &kp COMMA    &kp DOT               &kp FSLH
+                       &mo_tog 2 1      &hm LEFT_META SPACE  &kp TAB    &kp ENTER  &mt DELETE BACKSPACE  &kp ESCAPE
             >;
         };
 
-        nav_num {
-            display-name = "NAV_NUM";
-            label = "NAV_NUM";
+        num {
+            display-name = "Num";
+            label = "Num";
             bindings = <
   &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
   &kp SLASH      &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
@@ -136,13 +122,26 @@
             >;
         };
 
-        SYS {
+        nav {
+            label = "Nav";
+            display-name = "Nav";
             bindings = <
-  &bl BL_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(272,100,50)  &rgb_ug RGB_COLOR_HSB(310,100,50)  &bt BT_CLR     &studio_unlock  &bt BT_PRV      &bt BT_NXT  &bt BT_CLR  &bt BT_CLR_ALL
-  &bl BL_INC  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF                    &none                              &sys_reset     &sys_reset      &studio_unlock  &none       &none       &none
-  &bl BL_DEC  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR                    &none                              &bootloader    &bootloader     &none           &none       &none       &out OUT_TOG
-                               &none                              &none                              &none          &none           &none           &none
+  &kp BACKSLASH  &kp AMPERSAND    &kp ASTERISK  &kp TILDE  &kp HOME                &kp END                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+  &kp SLASH      &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+  &kp APOS       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+                                  &trans        &trans     &trans                  &kp LEFT_SHIFT         &trans        &trans
             >;
+        };
+
+        sys {
+            bindings = <
+  &bl BL_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(272,100,50)  &rgb_ug RGB_COLOR_HSB(310,100,50)  &studio_unlock    &studio_unlock  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &bt BT_CLR_ALL
+  &bl BL_INC  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF                    &none                              &sys_reset        &sys_reset      &none       &none       &none       &none
+  &bl BL_DEC  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR                    &none                              &bootloader       &bootloader     &none       &none       &none       &out OUT_TOG
+                               &none                              &none                              &none             &none           &none       &none
+            >;
+
+            label = "Sys";
         };
     };
 };
