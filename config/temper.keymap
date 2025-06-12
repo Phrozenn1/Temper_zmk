@@ -101,10 +101,10 @@
             display-name = "NAV_NUM";
             label = "NAV_NUM";
             bindings = <
-  &kp MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE  &kp GRAVE  &kp SLASH  &kp BACKSLASH
-  &kp EQUAL  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT     &kp CARET  &kp AMPS   &kp ASTRK
-  &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL        &kp AT     &kp HASH   &kp DOLLAR
-                        &trans     &trans     &trans                  &trans                 &trans          &trans
+  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE  &kp GRAVE  &kp SLASH  &kp BACKSLASH
+  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT     &kp CARET  &kp AMPS   &kp ASTRK
+  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL        &kp AT     &kp HASH   &kp DOLLAR
+                           &trans        &trans        &trans                  &trans                 &trans          &trans
             >;
         };
 
