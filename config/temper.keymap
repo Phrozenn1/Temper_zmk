@@ -83,7 +83,7 @@
         };
 
         escape {
-            bindings = <&kp ESCAPE>;
+            bindings = <&gresc>;
             key-positions = <10 11>;
         };
 
@@ -111,10 +111,10 @@
             display-name = "NUM_SYM";
             label = "NAV_NUM";
             bindings = <
-  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE  &kp TILDE  &kp SLASH  &kp BACKSLASH
-  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT     &kp CARET  &kp AMPS   &kp ASTRK
-  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL        &kp AT     &kp HASH   &kp DOLLAR
-                           &trans        &trans        &trans                  &trans                 &trans          &trans
+  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE  &kp TILDE  &kp SLASH  &kp BACKSLASH
+  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT     &kp CARET  &kp AMPS   &kp ASTRK
+  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL        &kp AT     &kp HASH   &kp DOLLAR
+                           &trans        &sk LEFT_SHIFT  &trans                  &trans                 &trans          &trans
             >;
         };
 
