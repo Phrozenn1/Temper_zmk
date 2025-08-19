@@ -100,10 +100,10 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-  &kp Q  &kp W         &kp F            &kp P         &kp B        &kp J      &kp L         &kp U             &kp Y         &kp SEMI
-  &kp A  &hml LCTRL R  &hml LEFT_ALT S  &hml LSHFT T  &kp G        &kp M      &hmr RSHFT N  &hmr RIGHT_ALT E  &hmr RCTRL I  &kp O
-  &kp Z  &kp X         &kp C            &kp D         &kp V        &kp K      &kp H         &kp COMMA         &kp DOT       &kp QUESTION
-                       &kp TAB          &kp LGUI      &kp SPACE    &kp ENTER  &sl 1         &kp BACKSPACE
+  &kp Q  &kp W         &kp F            &kp P         &kp B    &kp J  &kp L         &kp U             &kp Y         &kp SEMI
+  &kp A  &hml LCTRL R  &hml LEFT_ALT S  &hml LSHFT T  &kp G    &kp M  &hmr RSHFT N  &hmr RIGHT_ALT E  &hmr RCTRL I  &kp O
+  &kp Z  &kp X         &kp C            &kp D         &kp V    &kp K  &kp H         &kp COMMA         &kp DOT       &kp QUESTION
+                       &kp TAB          &kp SPACE     &mo 1    &sl 2  &kp LEFT_WIN  &kp BACKSPACE
             >;
         };
 
@@ -111,10 +111,10 @@
             display-name = "NUM_SYM";
             label = "NAV_NUM";
             bindings = <
-  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE  &kp TILDE  &kp SLASH  &kp BACKSLASH
-  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT     &kp CARET  &kp AMPS   &kp ASTRK
-  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL        &kp AT     &kp HASH   &kp DOLLAR
-                           &trans        &sk LEFT_SHIFT  &trans                  &trans                 &trans          &trans
+  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE   &kp TILDE  &kp SLASH  &kp BACKSLASH
+  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT      &kp CARET  &kp AMPS   &kp ASTRK
+  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL         &kp AT     &kp HASH   &kp DOLLAR
+                           &trans        &sk LEFT_SHIFT  &trans                  &trans                 &kp RIGHT_SHIFT  &trans
             >;
         };
 
