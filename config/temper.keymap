@@ -109,7 +109,7 @@
 
         num_sym {
             display-name = "NUM_SYM";
-            label = "NAV_NUM";
+            label = "NUM_SYM";
             bindings = <
   &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE   &kp TILDE  &kp SLASH  &kp BACKSLASH
   &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT      &kp CARET  &kp AMPS   &kp ASTRK
@@ -119,6 +119,8 @@
         };
 
         nav {
+            display-name = "NAV";
+            label = "NAV";
             bindings = <
   &kp K_COFFEE          &none     &kp UP_ARROW  &none      &kp C_VOL_UP         &none  &none  &none  &none  &none
   &kp C_BRIGHTNESS_INC  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_DOWN    &none  &none  &none  &none  &none
