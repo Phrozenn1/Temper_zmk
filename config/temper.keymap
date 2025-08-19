@@ -87,11 +87,6 @@
             bindings = <&gresc>;
             key-positions = <10 11>;
         };
-
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <25 26>;
-        };
     };
 
     keymap {
@@ -112,10 +107,10 @@
             display-name = "NUM_SYM";
             label = "NUM_SYM";
             bindings = <
-  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LESS_THAN           &kp GREATER_THAN       &kp APOSTROPHE   &kp TILDE  &kp SLASH  &kp BACKSLASH
-  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT      &kp CARET  &kp AMPS   &kp ASTRK
-  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCL         &kp AT     &kp HASH   &kp DOLLAR
-                           &trans        &sk LEFT_SHIFT  &trans                  &trans                 &sk RIGHT_SHIFT  &trans
+  &kp MINUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &mt GREATER_THAN LESS_THAN                &mt TILDE SINGLE_QUOTE  &kp F9           &kp F10  &kp F11  &kp F12
+  &kp EQUAL        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &mt RIGHT_BRACKET LEFT_BRACKET            &mt BACKSLASH SLASH     &kp F5           &kp F6   &kp F7   &kp F8
+  &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS   &kp F1           &kp F2   &kp F3   &kp F4
+                                 &trans        &sk LEFT_SHIFT  &gresc                                    &kp RETURN              &sk RIGHT_SHIFT  &trans
             >;
         };
 
