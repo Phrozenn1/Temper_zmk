@@ -87,9 +87,9 @@
             key-positions = <10 11>;
         };
 
-        nav_layer {
-            bindings = <&sl 2>;
-            key-positions = <34 35>;
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <25 26>;
         };
     };
 
