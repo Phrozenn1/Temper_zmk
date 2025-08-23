@@ -113,10 +113,10 @@
             display-name = "NUM_SYM";
             label = "NUM_SYM";
             bindings = <
-  &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt GREATER_THAN LESS_THAN                &mt TILDE SINGLE_QUOTE  &kp F9           &kp F10  &kp F11  &kp F12
-  &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RIGHT_BRACKET LEFT_BRACKET            &mt BACKSLASH SLASH     &kp F5           &kp F6   &kp F7   &kp F8
-  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp GRAVE               &kp F1           &kp F2   &kp F3   &kp F4
-                              &trans        &trans        &kp SPACE                                 &kp RETURN              &sk RIGHT_SHIFT  &trans
+  &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt GREATER_THAN LESS_THAN                &kp SINGLE_QUOTE     &kp F9           &kp F10  &kp F11  &kp F12
+  &kp EQUAL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RIGHT_BRACKET LEFT_BRACKET            &mt BACKSLASH SLASH  &kp F5           &kp F6   &kp F7   &kp F8
+  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS    &kp GRAVE            &kp F1           &kp F2   &kp F3   &kp F4
+                              &trans        &trans        &kp SPACE                                 &kp RETURN           &sk RIGHT_SHIFT  &trans
             >;
         };
 
