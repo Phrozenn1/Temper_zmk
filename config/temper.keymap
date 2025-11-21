@@ -79,25 +79,25 @@
 
         a {
             bindings = <&kp ENTER>;
-            key-positions = <19 18>;
+            key-positions = <7 6>;
             timeout-ms = <30>;
         };
 
         b {
             bindings = <&kp TAB>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
             timeout-ms = <30>;
         };
 
         c {
             bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
+            key-positions = <7 8>;
             timeout-ms = <30>;
         };
 
         d {
             bindings = <&kp ESC>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
 
         e {
@@ -112,7 +112,7 @@
 
         g {
             bindings = <&kp CLCK>;
-            key-positions = <11 10>;
+            key-positions = <11 12>;
         };
     };
 
@@ -123,10 +123,10 @@
             label = "Base";
             display-name = "Base";
             bindings = <
-  &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y        &kp U      &kp I             &kp O    &kp P
-  &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H        &kp J      &kp K             &kp L    &kp SEMI
-  &kp Z  &kp X  &kp C      &kp V        &kp B                 &kp N        &kp M      &kp COMMA         &kp DOT  &kp FSLH
-                &lt 3 SQT  &lt 2 SPACE  &mt LCTRL LEFT_WIN    &lt 1 SPACE  &kp SPACE  &mt LEFT_ALT SQT
+  &kp Q  &kp W  &kp E                   &kp R        &kp T                 &kp Y        &kp U      &kp I      &kp O    &kp P
+  &kp A  &kp S  &kp D                   &kp F        &kp G                 &kp H        &kp J      &kp K      &kp L    &kp SEMI
+  &kp Z  &kp X  &kp C                   &kp V        &kp B                 &kp N        &kp M      &kp COMMA  &kp DOT  &kp FSLH
+                &lt 3 NON_US_BACKSLASH  &lt 2 SPACE  &mt LCTRL LEFT_WIN    &lt 1 SPACE  &kp ENTER  &kp RSHFT
             >;
         };
 
@@ -154,10 +154,10 @@
 
         layer_3 {
             bindings = <
-  &trans  &trans    &kp UP_ARROW    &trans     &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans    &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans
-                    &trans          &trans     &trans    &trans  &trans  &trans
+  &trans          &trans          &none      &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp LEFT_ARROW  &kp UP_ARROW    &none      &none   &trans    &trans  &trans  &trans  &trans  &trans
+  &trans          &kp DOWN_ARROW  &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                                  &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
