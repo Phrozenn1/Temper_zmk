@@ -114,6 +114,11 @@
             bindings = <&kp CLCK>;
             key-positions = <11 12>;
         };
+
+        h {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <9 8>;
+        };
     };
 
     keymap {
