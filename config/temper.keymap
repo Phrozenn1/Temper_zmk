@@ -6,7 +6,6 @@
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
@@ -133,10 +132,10 @@
 
         System {
             bindings = <
-  &ext_power EP_TOG  &trans          &trans  &trans  &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-  &out OUT_TOG       &trans          &trans  &trans  &bootloader    &bootloader   &trans        &trans        &trans        &trans
-  &bl BL_TOG         &studio_unlock  &trans  &trans  &sys_reset     &sys_reset    &trans        &trans        &trans        &trans
-                                     &trans  &trans  &trans         &trans        &trans        &trans
+  &ext_power EP_TOG  &trans  &trans  &trans  &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+  &out OUT_TOG       &trans  &trans  &trans  &bootloader    &bootloader   &trans        &trans        &trans        &trans
+  &none              &none   &trans  &trans  &sys_reset     &sys_reset    &trans        &trans        &trans        &trans
+                             &trans  &trans  &trans         &trans        &trans        &trans
             >;
 
             label = "System";
