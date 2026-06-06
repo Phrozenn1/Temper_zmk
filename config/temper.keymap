@@ -123,9 +123,9 @@
             display-name = "NAV";
             label = "NAV";
             bindings = <
-  &kp C_AL_COFFEE       &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp PRINTSCREEN    &kp C_MUTE         &kp F9  &kp F10  &kp F11  &kp F12
-  &kp C_BRIGHTNESS_INC  &kp LEFT     &kp DOWN      &kp RIGHT      &kp INSERT         &kp C_VOLUME_UP    &kp F5  &kp F6   &kp F7   &kp F8
-  &kp C_BRIGHTNESS_DEC  &kp HOME     &none         &kp END        &kp DELETE         &kp C_VOLUME_DOWN  &kp F1  &kp F2   &kp F3   &kp F4
+  &kp C_AL_COFFEE       &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp PRINTSCREEN    &kp C_MUTE         &trans  &trans  &trans  &trans
+  &kp C_BRIGHTNESS_INC  &kp LEFT     &kp DOWN      &kp RIGHT      &kp INSERT         &kp C_VOLUME_UP    &kp H   &kp J   &kp K   &kp L
+  &kp C_BRIGHTNESS_DEC  &kp HOME     &none         &kp END        &kp DELETE         &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans
                                      &none         &none          &trans             &trans             &none   &none
             >;
         };
